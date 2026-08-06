@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appLoadingView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3000000"
+    android:clickable="true"
+    android:focusable="true"
+    android:visibility="gone">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/loading_container"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Outer Square Frame -->
+        <View
+            android:id="@+id/loading_frame"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/loading_frame_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Orbiting Dot 1 -->
+        <View
+            android:id="@+id/dot1"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:background="@drawable/loading_dot_coral"
+            app:layout_constraintBottom_toTopOf="@id/loading_frame"
+            app:layout_constraintEnd_toStartOf="@id/loading_frame"
+            app:layout_constraintStart_toStartOf="@id/loading_frame"
+            app:layout_constraintTop_toTopOf="@id/loading_frame" />
+
+        <!-- Orbiting Dot 2 -->
+        <View
+            android:id="@+id/dot2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/loading_dot_blue"
+            app:layout_constraintBottom_toBottomOf="@id/loading_frame"
+            app:layout_constraintEnd_toEndOf="@id/loading_frame"
+            app:layout_constraintStart_toEndOf="@id/loading_frame"
+            app:layout_constraintTop_toBottomOf="@id/loading_frame" />
+
+        <!-- Center Dot -->
+        <View
+            android:id="@+id/dot_center"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:background="@drawable/loading_dot_purple"
+            app:layout_constraintBottom_toBottomOf="@id/loading_frame"
+            app:layout_constraintEnd_toEndOf="@id/loading_frame"
+            app:layout_constraintStart_toStartOf="@id/loading_frame"
+            app:layout_constraintTop_toTopOf="@id/loading_frame" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvLoadingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="SECURELY LOADING"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:letterSpacing="0.2"
+        android:textStyle="bold"
+        android:alpha="0.8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loading_container" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Velyx</string>
+    <string name="title_velyx_sos">Velyx</string>
+    <string name="tagline">あなたの安全、私たちの優先事項</string>
+    <string name="join_network">セーフティネットワークに参加する</string>
+
+    <!-- Auth -->
+    <string name="login">ログイン</string>
+    <string name="signup">サインアップ</string>
+    <string name="forgot_password">パスワードをお忘れですか？</string>
+    <string name="btn_login">ログイン</string>
+    <string name="btn_signup">サインアップ</string>
+    <string name="btn_register_now">今すぐ登録</string>
+
+    <!-- Fields -->
+    <string name="hint_full_name">フルネーム</string>
+    <string name="hint_email">メールアドレス</string>
+    <string name="hint_password">パスワード</string>
+    <string name="hint_confirm_password">パスワードの確認</string>
+    <string name="hint_phone">電話番号</string>
+    <string name="label_select_role">役割を選択</string>
+
+    <!-- Main/Home -->
+    <string name="btn_emergency">緊急</string>
+    <string name="btn_save_config">設定を保存</string>
+    <string name="status_monitoring">音声トリガーを監視中...</string>
+    <string name="protection_status">保護ステータス</string>
+    <string name="emergency_response">緊急対応</string>
+    <string name="btn_trusted_contacts">信頼できる連絡先</string>
+    <string name="btn_alert_message">アラートメッセージ</string>
+    <string name="sos">SOS</string>
+
+    <!-- Settings Page -->
+    <string name="settings_title">設定</string>
+    <string name="settings_theme_mode">表示モード</string>
+    <string name="theme_light">ライトモード</string>
+    <string name="theme_dark">ダークモード</string>
+    <string name="settings_language">アプリの言語</string>
+    <string name="settings_language_desc">言語を変更すると、アプリ内のすべてのテキストが更新されます。</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">ナビゲーションドロワーを開く</string>
+    <string name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
+    <string name="nav_home">ホーム</string>
+    <string name="nav_map">マップ</string>
+    <string name="nav_message">メッセージ</string>
+    <string name="nav_search">検索</string>
+    <string name="nav_profile">プロフィール</string>
+
+    <!-- Profile Page -->
+    <string name="profile_settings">プロフィールと設定</string>
+    <string name="option_edit_profile">プロフィールを編集</string>
+    <string name="option_change_password">パスワードを変更</string>
+    <string name="option_settings">設定</string>
+    <string name="option_feedback">フィードバック</string>
+    <string name="option_about">Velyx SOSについて</string>
+    <string name="btn_logout">ログアウト</string>
+    <string name="app_version">バージョン 1.0.0</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile_title">プロフィールを編集</string>
+    <string name="edit_your_profile">プロフィールを編集する</string>
+    <string name="btn_save_changes">変更を保存</string>
+
+    <!-- Change Password -->
+    <string name="change_password_title">パスワードを変更</string>
+    <string name="hint_current_password">現在のパスワード</string>
+    <string name="hint_new_password">新しいパスワード</string>
+    <string name="hint_confirm_new_password">新しいパスワードを確認</string>
+    <string name="btn_update_password">パスワードを更新</string>
+    <string name="btn_forgot_password_verify">パスワードをお忘れですか？メールを確認してください</string>
+
+    <!-- Alert Message -->
+    <string name="emergency_config">緊急設定</string>
+    <string name="custom_alert_message">カスタムアラートメッセージ</string>
+    <string name="hint_type_message">緊急メッセージを入力してください...</string>
+    <string name="select_contacts_alert">アラートを送信するデフォルトの連絡先を選択してください：</string>
+    <string name="btn_send_alert_now">今すぐアラートを送信</string>
+
+    <!-- Trusted Contacts -->
+    <string name="title_trusted_contacts">信頼できる連絡先</string>
+    <string name="label_your_trusted_contacts">あなたの信頼できる連絡先：</string>
+    <string name="btn_pick_from_contacts">連絡先から選択</string>
+    <string name="hint_contact_name">連絡先名</string>
+    <string name="hint_phone_number">電話番号</string>
+    <string name="hint_relation">関係（例：姉妹）</string>
+    <string name="btn_save_contact">連絡先を保存</string>
+    <string name="btn_add_trusted_contact">信頼できる連絡先を追加</string>
+
+    <!-- Messages & Errors -->
+    <string name="welcome_back">おかえりなさい、%1$sさん</string>
+    <string name="error_invalid_login">メールアドレスまたはパスワードが無効です</string>
+    <string name="error_fill_all_fields">すべての項目を入力してください</string>
+    <string name="error_pass_requirements">パスワードが要件を満たしていません</string>
+    <string name="error_pass_match">パスワードが一致しません</string>
+    <string name="error_invalid_phone">有効な電話番号を入力してください</string>
+    <string name="msg_account_created">アカウントが作成されました！ログインしてください。</string>
+    <string name="msg_profile_updated">プロフィールが更新されました！</string>
+    <string name="msg_photo_updated">プロフィール写真が更新されました！</string>
+    <string name="msg_contact_added">連絡先が追加されました</string>
+    <string name="msg_contact_removed">連絡先が削除されました</string>
+    <string name="delete_confirm_title">連絡先を削除</string>
+    <string name="delete_confirm_msg">この連絡先を削除してもよろしいですか？</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+</resources>
+

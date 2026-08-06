@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Velyx</string>
+    <string name="title_velyx_sos">Velyx</string>
+    <string name="btn_emergency">EMERGENCIA</string>
+    <string name="btn_save">GUARDAR CONFIGURACIÓN</string>
+    <string name="status_monitoring">Estado: Monitoreando…</string>
+    <string name="hint_phone">Número de Teléfono de Emergencia</string>
+    <string name="hint_trigger">Palabra de Activación (ej. ayuda)</string>
+    <string name="label_config">Configuración</string>
+
+    <!-- Settings Page -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_theme_mode">Modo de Visualización</string>
+    <string name="theme_light">Modo Claro</string>
+    <string name="theme_dark">Modo Oscuro</string>
+    <string name="settings_language">Idioma de la Aplicación</string>
+    <string name="settings_language_desc">Cambiar el idioma actualizará todo el texto de la aplicación.</string>
+
+    <!-- Signup Strings -->
+    <string name="title_signup">Registrarse</string>
+    <string name="hint_name">Nombre Completo</string>
+    <string name="hint_email">Correo Electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="label_select_role">Seleccione su Rol:</string>
+    <string name="role_user">Usuario (Protegido)</string>
+    <string name="role_guardian">Guardián (Rescatista)</string>
+    <string name="role_admin">Administrador</string>
+    <string name="btn_signup">Registrarse Ahora</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+
+    <!-- Profile Page -->
+    <string name="profile_phone">Teléfono: %1$s</string>
+    <string name="profile_role">Rol: %1$s</string>
+    <string name="msg_opening_map">Abriendo Mapa…</string>
+    <string name="msg_opening_messages">Abriendo Mensajes…</string>
+    <string name="msg_opening_search">Abriendo Búsqueda…</string>
+    <string name="no_contacts_set">No hay contactos configurados</string>
+
+    <!-- Messages & Errors -->
+    <string name="welcome_back">Bienvenido de nuevo, %1$s</string>
+    <string name="error_invalid_login">Correo o contraseña no válidos</string>
+    <string name="error_fill_all_fields">Por favor, rellene todos los campos</string>
+    <string name="error_pass_requirements">La contraseña no cumple con los requisitos</string>
+    <string name="error_pass_match">Las contraseñas no coinciden</string>
+    <string name="error_invalid_phone">Por favor, introduzca un número de teléfono válido</string>
+    <string name="msg_account_created">¡Cuenta creada! Por favor, inicie sesión.</string>
+    <string name="msg_profile_updated">¡Perfil actualizado!</string>
+    <string name="msg_photo_updated">¡Foto de perfil actualizada!</string>
+
+    <!-- Trusted Contacts -->
+    <string name="title_trusted_contacts">Contactos de Confianza</string>
+    <string name="btn_add_trusted_contact">Añadir Contacto de Confianza</string>
+    <string name="btn_save_contact">GUARDAR CONTACTO</string>
+    <string name="label_your_trusted_contacts">Sus Contactos de Confianza:</string>
+    <string name="hint_contact_name">Nombre del Contacto</string>
+    <string name="hint_phone_number">Número de Teléfono</string>
+    <string name="hint_relation">Relación (ej. Hermana)</string>
+    <string name="msg_contact_added">Contacto Añadido</string>
+    <string name="msg_contact_removed">Contacto Eliminado</string>
+    <string name="delete_confirm_title">Eliminar Contacto</string>
+    <string name="delete_confirm_msg">¿Está seguro de que desea eliminar este contacto?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+</resources>

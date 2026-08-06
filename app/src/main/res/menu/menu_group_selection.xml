@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_mark_read_unread"
+        android:title="Mark as unread" />
+    <item
+        android:id="@+id/action_favorite"
+        android:title="Add to favourites" />
+    <item
+        android:id="@+id/action_clear_chat"
+        android:title="Clear chat" />
+    <item
+        android:id="@+id/action_pin_unpin"
+        android:title="Pin" />
+    <item
+        android:id="@+id/action_exit_groups"
+        android:title="Exit" />
+    <item
+        android:id="@+id/action_delete_groups"
+        android:title="Delete" />
+</menu>

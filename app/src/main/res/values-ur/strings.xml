@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Velyx</string>
+    <string name="title_velyx_sos">Velyx</string>
+    <string name="btn_emergency">ایمرجنسی</string>
+    <string name="btn_save">کنفیگریشن محفوظ کریں</string>
+    <string name="status_monitoring">حالت: مانیٹرنگ ہو رہی ہے…</string>
+    <string name="hint_phone">ایمرجنسی فون نمبر</string>
+    <string name="hint_trigger">ٹرگر لفظ (مثلاً مدد)</string>
+    <string name="label_config">کنفیگریشن</string>
+
+    <!-- Settings Page -->
+    <string name="settings_title">ترتیبات</string>
+    <string name="settings_theme_mode">ڈسپلے موڈ</string>
+    <string name="theme_light">لائٹ موڈ</string>
+    <string name="theme_dark">ڈارک موڈ</string>
+    <string name="settings_language">ایپ کی زبان</string>
+    <string name="settings_language_desc">زبان تبدیل کرنے سے ایپ کی تمام تحریریں اپ ڈیٹ ہو جائیں گی۔</string>
+
+    <!-- Signup Strings -->
+    <string name="title_signup">سائن اپ</string>
+    <string name="hint_name">پورا نام</string>
+    <string name="hint_email">ای میل ایڈریس</string>
+    <string name="hint_password">پاس ورڈ</string>
+    <string name="label_select_role">اپنا کردار منتخب کریں:</string>
+    <string name="role_user">صارف (محفوظ)</string>
+    <string name="role_guardian">گارڈین (بچانے والا)</string>
+    <string name="role_admin">ایڈمنسٹریٹر</string>
+    <string name="btn_signup">ابھی رجسٹر کریں</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">نیویگیشن دراز کھولیں</string>
+    <string name="navigation_drawer_close">نیویگیشن دراز بند کریں</string>
+
+    <!-- Profile Page -->
+    <string name="profile_phone">فون: %1$s</string>
+    <string name="profile_role">کردار: %1$s</string>
+    <string name="msg_opening_map">نقشہ کھل رہا ہے…</string>
+    <string name="msg_opening_messages">پیغامات کھل رہے ہیں…</string>
+    <string name="msg_opening_search">تلاش کھل رہی ہے…</string>
+    <string name="no_contacts_set">کوئی رابطہ سیٹ نہیں ہے</string>
+
+    <!-- Messages & Errors -->
+    <string name="welcome_back">خوش آمدید، %1$s</string>
+    <string name="error_invalid_login">غلط ای میل یا پاس ورڈ</string>
+    <string name="error_fill_all_fields">براہ کرم تمام خانے پُر کریں</string>
+    <string name="error_group_name_required">گروپ کا نام ضروری ہے</string>
+    <string name="error_pass_requirements">پاس ورڈ شرائط پر پورا نہیں اترتا</string>
+    <string name="error_pass_match">پاس ورڈز مطابقت نہیں رکھتے</string>
+    <string name="error_invalid_phone">براہ کرم درست فون نمبر درج کریں</string>
+    <string name="msg_account_created">اکاؤنٹ بن گیا! براہ کرم لاگ ان کریں۔</string>
+    <string name="msg_profile_updated">پروفائل اپ ڈیٹ ہو گئی!</string>
+    <string name="msg_photo_updated">پروفائل تصویر اپ ڈیٹ ہو گئی!</string>
+    <string name="option_edit_profile">پروفائل میں ترمیم کریں</string>
+    <string name="option_change_password">پاس ورڈ تبدیل کریں</string>
+    <string name="option_settings">ترتیبات</string>
+    <string name="option_permissions">ایپ کی اجازتیں</string>
+    <string name="option_feedback">رائے بھیجیں</string>
+    <string name="option_about">ہمارے بارے میں</string>
+    <string name="option_safety_check">سیفٹی چیک</string>
+    <string name="btn_logout">لاگ آؤٹ</string>
+    <string name="app_version">ورژن 1.0.0</string>
+
+    <!-- Trusted Contacts -->
+    <string name="title_trusted_contacts">قابل اعتماد رابطے</string>
+    <string name="btn_add_trusted_contact">قابل اعتماد رابطہ شامل کریں</string>
+    <string name="btn_save_contact">رابطہ محفوظ کریں</string>
+    <string name="label_your_trusted_contacts">آپ کے قابل اعتماد رابطے:</string>
+    <string name="hint_contact_name">رابطے کا نام</string>
+    <string name="hint_phone_number">فون نمبر</string>
+    <string name="hint_relation">رشتہ (مثلاً بہن)</string>
+    <string name="msg_contact_added">رابطہ شامل کر دیا گیا</string>
+    <string name="msg_contact_removed">رابطہ ہٹا دیا گیا</string>
+    <string name="delete_confirm_title">رابطہ حذف کریں</string>
+    <string name="delete_confirm_msg">کیا آپ واقعی اس رابطے کو حذف کرنا چاہتے ہیں؟</string>
+    <string name="yes">جی ہاں</string>
+    <string name="no">نہیں</string>
+    <string name="search_results_zero">0 نتائج</string>
+    <string name="search_count_format">%1$d/%2$d</string>
+
+    <!-- Chat Actions -->
+    <string name="clear_chat_title">چیٹ صاف کریں</string>
+    <string name="clear_chat_msg">کیا آپ واقعی اپنے پیغامات کو صاف کرنا چاہتے ہیں؟</string>
+    <string name="clear">صاف کریں</string>
+    <string name="msg_chat_cleared">چیٹ صاف ہو گئی</string>
+    <string name="delete_chat_title">چیٹ حذف کریں</string>
+    <string name="delete_chat_msg">آپ کے لیے یہ چیٹ ہسٹری حذف کریں؟</string>
+    <string name="delete">حذف کریں</string>
+    <string name="msg_chat_deleted">چیٹ حذف ہو گئی</string>
+    <string name="exit_group_title">گروپ سے نکلیں</string>
+    <string name="exit_group_msg">کیا آپ واقعی اس گروپ سے نکلنا چاہتے ہیں؟</string>
+    <string name="exit">نکلیں</string>
+    <string name="msg_exited_group">گروپ سے نکل گئے</string>
+    <string name="msg_copied">کلپ بورڈ پر کاپی ہو گیا</string>
+    <string name="msg_messages_starred">پیغامات اسٹار ہو گئے</string>
+    <string name="msg_messages_pinned">پیغامات پن ہو گئے</string>
+    <string name="msg_messages_deleted">پیغامات حذف ہو گئے</string>
+    <string name="search_chats">چیٹس تلاش کریں</string>
+    <string name="hint_type_message_chat">پیغام لکھیں…</string>
+    <string name="msg_saving_profile">پروفائل کی تبدیلیاں محفوظ ہو رہی ہیں…</string>
+    <string name="msg_uploading_photo">پروفائل فوٹو اپ لوڈ ہو رہی ہے…</string>
+    <string name="msg_session_expired">سیشن ختم ہو گیا۔ براہ کرم دوبارہ لاگ ان کریں۔</string>
+    <string name="msg_photo_update_failed">پروفائل لنک اپ ڈیٹ کرنے میں ناکامی</string>
+    <string name="msg_db_update_failed">ڈیٹا بیس اپ ڈیٹ ناکام ہو گیا</string>
+    <string name="msg_upload_failed">اپ لوڈ ناکام: %1$s</string>
+    <string name="msg_no_email_client">کوئی ای میل کلائنٹ نہیں ملا</string>
+    <string name="msg_send_feedback_title">فیڈ بیک بھیجیں…</string>
+    <string name="msg_invalid_phone_number">غلط فون نمبر</string>
+    <string name="msg_checking_user">صارف کی جانچ ہو رہی ہے…</string>
+    <string name="msg_user_not_found">صارف بیکن ایس او ایس پر موجود نہیں ہے</string>
+    <string name="msg_user_already_added">صارف پہلے ہی شامل ہے</string>
+    <string name="msg_already_in_group">آپ پہلے ہی گروپ میں ہیں</string>
+    <string name="msg_error_checking_user">صارف کی جانچ میں خرابی</string>
+    <string name="msg_conn_timeout">کنکشن کا وقت ختم ہو گیا۔ براہ کرم اپنا انٹرنیٹ چیک کریں۔</string>
+    <string name="msg_failed_create_group">گروپ بنانے میں ناکامی</string>
+    <string name="msg_group_name_required">گروپ کا نام ضروری ہے</string>
+    <string name="label_update_details">اپنی تفصیلات اپ ڈیٹ کریں</string>
+    <string name="label_forward_to">بھیجیں</string>
+    <string name="hint_search_messages">پیغامات تلاش کریں…</string>
+
+    <!-- Safety Check -->
+    <string name="safety_check_title">سیفٹی چیک</string>
+    <string name="safety_check_desc">اپنی حفاظت کے لیے ٹائمر سیٹ کریں۔ اگر روکا نہ گیا تو SOS بھیجا جائے گا۔</string>
+    <string name="set_duration">وقت منتخب کریں (منٹ)</string>
+    <string name="start_timer">سیفٹی ٹائمر شروع کریں</string>
+    <string name="stop_timer">میں محفوظ ہوں (ٹائمر روکیں)</string>
+    <string name="timer_running">سیفٹی ٹائمر چل رہا ہے</string>
+    <string name="emergency_triggered">سیفٹی چیک ناکام! SOS بھیج دیا گیا۔</string>
+    <string name="safety_timer_notification">سیفٹی ٹائمر فعال ہے۔ روکنے کے لیے ٹیپ کریں۔</string>
+    <string name="safety_alarm_title">سیفٹی چیک الارم!</string>
+    <string name="safety_timer_finished">سیفٹی ٹائمر ختم۔ SOS بھیجا جا رہا ہے…</string>
+    <string name="msg_timer_started">سیفٹی ٹائمر %1$d منٹ کے لیے شروع کر دیا گیا</string>
+    <string name="msg_timer_stopped">سیفٹی ٹائمر روک دیا گیا</string>
+</resources>

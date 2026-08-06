@@ -1,0 +1,333 @@
+<resources>
+    <string name="app_name">Velyx</string>
+    <string name="title_velyx_sos">Velyx</string>
+    <string name="tagline">Your Safety, Our Priority</string>
+    <string name="join_network">Join the Safety Network</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="title_signup">Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_signup">SIGN UP</string>
+    <string name="btn_register_now">Register Now</string>
+    <string name="role_user">User (Protected)</string>
+    <string name="role_guardian">Guardian (Rescuer)</string>
+    <string name="role_admin">Administrator</string>
+
+    <!-- Fields -->
+    <string name="hint_name">Full Name</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_trigger">Trigger Word (e.g., help)</string>
+    <string name="label_select_role">Select Role</string>
+    <string name="label_config">Configuration</string>
+
+    <!-- Main/Home -->
+    <string name="btn_emergency">EMERGENCY</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_save_config">SAVE CONFIGURATION</string>
+    <string name="status_monitoring">Monitoring for Voice Trigger...</string>
+    <string name="protection_status">Protection Status</string>
+    <string name="emergency_response">Emergency Response</string>
+    <string name="btn_trusted_contacts">Trusted Contacts</string>
+    <string name="btn_alert_message">Alert Message</string>
+    <string name="sos">SOS</string>
+
+    <!-- Settings Page -->
+    <string name="settings_title">Settings</string>
+    <string name="sos_triggers">SOS Triggers</string>
+    <string name="shake_sos">Shake SOS</string>
+    <string name="power_sos">Power SOS</string>
+    <string name="appearance">Appearance</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="select_sound">Select Sound</string>
+    <string name="settings_theme_mode">Display Mode</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="settings_language">App Language</string>
+    <string name="settings_language_desc">Changing the language will update all text in the app.</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_message">Message</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Profile Page -->
+    <string name="profile_settings">Profile &amp; Settings</string>
+    <string name="profile_phone">Phone: %1$s</string>
+    <string name="profile_role">Role: %1$s</string>
+    <string name="option_edit_profile">Edit Profile</string>
+    <string name="option_change_password">Change Password</string>
+    <string name="option_settings">Settings</string>
+    <string name="option_permissions">App Permissions</string>
+    <string name="option_feedback">Send Feedback</string>
+    <string name="option_about">About Velyx</string>
+    <string name="option_safety_check">Safety Check</string>
+    <string name="btn_logout">Log out</string>
+    <string name="app_version">Version 1.0.0</string>
+    <string name="no_contacts_set">No contacts set</string>
+
+    <!-- Status -->
+    <string name="status_protected">PROTECTED</string>
+    <string name="status_unprotected">UNPROTECTED</string>
+    <string name="status_mic">Mic: %1$s</string>
+    <string name="status_location">Location: %1$s</string>
+    <string name="status_sms">SMS: %1$s</string>
+    <string name="status_active">Active</string>
+    <string name="status_off">Off</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="edit_your_profile">Edit Your Profile</string>
+    <string name="btn_save_changes">SAVE CHANGES</string>
+
+    <!-- Change Password -->
+    <string name="change_password_title">Change Password</string>
+    <string name="hint_current_password">Current Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_confirm_new_password">Confirm New Password</string>
+    <string name="btn_update_password">Update Password</string>
+    <string name="btn_forgot_password_verify">Forgot Password? Verify Email</string>
+
+    <!-- Alert Message -->
+    <string name="emergency_config">Emergency Configuration</string>
+    <string name="custom_alert_message">Custom Alert Message</string>
+    <string name="hint_type_message">Type your emergency message...</string>
+    <string name="select_contacts_alert">Select Default Contacts to Alert:</string>
+    <string name="btn_send_alert_now">SEND ALERT NOW</string>
+    <string name="volume_sos_title">Volume Button SOS</string>
+    <string name="volume_sos_desc">Press Volume Up twice to send SOS</string>
+    <string name="shake_sos_title">Shake Detection</string>
+    <string name="shake_sos_desc">Shake your phone to trigger SOS</string>
+    <string name="audio_saved_duration">Saved (%1$s)</string>
+    <string name="audio_msg_saved">Audio message saved</string>
+    <string name="audio_recording">Recording...</string>
+    <string name="audio_recorded">Recorded</string>
+    <string name="audio_none">No audio message</string>
+    <string name="audio_timer_default">00:00</string>
+    <string name="sent_to_prefix">Sent to: %1$s</string>
+    <string name="fetching_location">Fetching location...</string>
+    <string name="config_saved">Configuration saved</string>
+    <string name="select_contact_error">Please select at least one contact</string>
+    <string name="alert_sent_success">Alert sent to %1$d contacts</string>
+    <string name="sos_triggers_title">SOS Triggers</string>
+    <string name="voice_trigger_phrase">Voice Trigger Phrase</string>
+    <string name="voice_trigger_hint">e.g., help</string>
+    <string name="volume_trigger_title">Volume Button Trigger</string>
+    <string name="volume_trigger_desc">Double press volume up</string>
+    <string name="shake_trigger_title">Shake Detection</string>
+    <string name="shake_trigger_desc">Shake phone to trigger SOS</string>
+
+    <!-- Trusted Contacts -->
+    <string name="title_trusted_contacts">Trusted Contacts</string>
+    <string name="label_your_trusted_contacts">Your Trusted Contacts:</string>
+    <string name="btn_pick_from_contacts">PICK FROM PHONE CONTACTS</string>
+    <string name="hint_contact_name">Contact Name</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_relation">Relation (e.g. Sister)</string>
+    <string name="btn_save_contact">SAVE CONTACT</string>
+    <string name="btn_add_trusted_contact">Add Trusted Contact</string>
+    <string name="title_edit_contact">Edit Contact</string>
+    <string name="btn_update_contact">UPDATE CONTACT</string>
+    <string name="btn_cancel">CANCEL</string>
+
+    <!-- Messages & Errors -->
+    <string name="welcome_back">Welcome back, %1$s</string>
+    <string name="error_invalid_login">Invalid Email or Password</string>
+    <string name="error_fill_all_fields">Please fill all fields</string>
+    <string name="error_group_name_required">Group name is required</string>
+    <string name="error_pass_requirements">Password does not meet requirements</string>
+    <string name="error_pass_match">Passwords do not match</string>
+    <string name="error_invalid_phone">Please enter a valid phone number</string>
+    <string name="msg_account_created">Account created! Please login.</string>
+    <string name="msg_profile_updated">Profile Updated!</string>
+    <string name="msg_photo_updated">Profile picture updated!</string>
+    <string name="msg_saving_profile">Saving Profile Changes…</string>
+    <string name="msg_uploading_photo">Uploading Profile Photo…</string>
+    <string name="msg_session_expired">Session expired. Please login again.</string>
+    <string name="msg_photo_update_failed">Failed to update profile link</string>
+    <string name="msg_db_update_failed">Database update failed</string>
+    <string name="msg_upload_failed">Upload failed: %1$s</string>
+    <string name="msg_no_email_client">No email client found</string>
+    <string name="msg_send_feedback_title">Send feedback…</string>
+    <string name="msg_invalid_phone_number">Invalid phone number</string>
+    <string name="msg_checking_user">Checking user…</string>
+    <string name="msg_user_not_found">User doesn\'t exist on Velyx</string>
+    <string name="msg_user_already_added">User already added</string>
+    <string name="msg_already_in_group">You are already in the group</string>
+    <string name="msg_error_checking_user">Error checking user</string>
+    <string name="msg_conn_timeout">Connection timeout. Please check your internet.</string>
+    <string name="msg_failed_create_group">Failed to create group</string>
+    <string name="msg_group_name_required">Group name required</string>
+    <string name="msg_network_error">Network Error</string>
+    <string name="msg_internet_required">Internet connection is required for security verification.</string>
+    <string name="msg_input_required">Input Required</string>
+    <string name="msg_enter_full_name">Please enter your full name.</string>
+    <string name="msg_enter_phone_number">Please enter your phone number.</string>
+    <string name="msg_invalid_format">Invalid Format</string>
+    <string name="msg_phone_format_error">The phone number format is incorrect for the selected country.</string>
+    <string name="msg_password_weak">Password Weak</string>
+    <string name="msg_password_requirements">Please follow the password requirements shown on screen.</string>
+    <string name="msg_password_mismatch_title">Password Mismatch</string>
+    <string name="msg_password_mismatch_desc">Passwords do not match.</string>
+    <string name="msg_security_timeout_title">Security Timeout</string>
+    <string name="msg_security_timeout_desc">Firebase security check is taking too long.\n\nACTION REQUIRED:\n1. Look at Logcat for \'DebugAppCheckProvider\'.\n2. Copy the token and add it to Firebase Console > App Check.\n3. Ensure SHA-256 is correct.</string>
+    <string name="msg_database_error">Database Error</string>
+    <string name="msg_firestore_failed">Auth success, but Firestore failed: %1$s</string>
+    <string name="msg_registration_failed">Registration Failed</string>
+    <string name="msg_verifying_credentials">Verifying Credentials</string>
+    <string name="msg_auth_service_error">Authentication service not available.</string>
+    <string name="msg_db_service_error">Database service not available.</string>
+    <string name="msg_account_not_found_title">Account Not Found</string>
+    <string name="msg_account_not_found_desc">No account exists for this phone number. Please sign up first.</string>
+    <string name="msg_incorrect_password">Incorrect password. Please try again.</string>
+    <string name="msg_login_error">Login Error</string>
+    <string name="msg_data_error">Data Error</string>
+    <string name="msg_profile_data_not_found">Your account was authenticated, but we couldn\'t find your profile data. Please contact support.</string>
+    <string name="msg_server_error">Server Error</string>
+    <string name="msg_failed_retrieve_profile">Failed to retrieve your profile: %1$s</string>
+    <string name="msg_connecting_security">Connecting to Security Server</string>
+    <string name="msg_welcome_back_toast">Welcome back, %1$s!</string>
+    <string name="msg_account_verified">Account verified and created!</string>
+    <string name="msg_loading_users">Loading Users List</string>
+    <string name="msg_failed_load_users">Failed to load users.</string>
+    <string name="msg_delete_user_title">Delete User</string>
+    <string name="msg_delete_user_confirm">Are you sure you want to delete %1$s?</string>
+    <string name="msg_deleting_user">Deleting User</string>
+    <string name="msg_user_deleted">User deleted</string>
+    <string name="msg_failed_delete_user">Failed to delete user</string>
+    <string name="msg_cannot_delete_user_no_id">Cannot delete user: ID is null</string>
+    <string name="label_role_prefix">Role: %1$s</string>
+    <string name="btn_dismiss">Dismiss</string>
+    <string name="btn_ok">OK</string>
+    <string name="label_update_details">Update your details</string>
+
+    <!-- Safety Check -->
+    <string name="safety_check_title">Safety Check</string>
+    <string name="safety_check_desc">Set a timer for your safety. If not stopped, an SOS will be sent.</string>
+    <string name="set_duration">Set Duration (minutes)</string>
+    <string name="start_timer">Start Safety Timer</string>
+    <string name="stop_timer">I am Safe (Stop Timer)</string>
+    <string name="timer_running">Safety Timer is Running</string>
+    <string name="emergency_triggered">Safety Check Failed! SOS Sent.</string>
+    <string name="safety_timer_notification">Safety timer is active. Tap to stop.</string>
+    <string name="safety_alarm_title">Safety Check Alarm!</string>
+    <string name="safety_timer_finished">Safety timer finished. Triggering SOS...</string>
+    <string name="msg_timer_started">Safety timer started for %1$d minutes</string>
+    <string name="msg_timer_stopped">Safety timer stopped</string>
+    <string name="pause_timer">Pause Timer</string>
+    <string name="resume_timer">Resume Timer</string>
+    <string name="alarm_ringtone_title">Alarm Ringtone</string>
+    <string name="msg_notification_title">Message</string>
+    <string name="safety_notification_title">Safety Check</string>
+    <string name="msg_alarm_sound_set">Alarm sound set to: %1$s</string>
+    <string name="content_desc_select_ringtone">Select Ringtone</string>
+    <string name="schedule_safety_check">Schedule Safety Check</string>
+    <string name="label_start_date_time">Start Date &amp; Time</string>
+    <string name="label_end_date_time">End Date &amp; Time</string>
+    <string name="hint_select_start_time">Select Start Time</string>
+    <string name="hint_select_end_time">Select End Time</string>
+    <string name="label_duration_format">Duration: %1$d minutes</string>
+    <string name="btn_set_schedule">Set Schedule</string>
+    <string name="msg_start_future">Start time must be in the future</string>
+    <string name="msg_end_after_start">End time must be after start time</string>
+    <string name="msg_safety_scheduled">Safety check scheduled!</string>
+    <string name="content_desc_schedule_timer">Schedule Timer</string>
+
+    <string name="label_forward_to">Forward to</string>
+    <string name="hint_search_messages">Search messages…</string>
+    <string name="msg_contact_added">Contact Added</string>
+    <string name="msg_contact_removed">Contact Removed</string>
+    <string name="msg_contact_updated">Contact Updated Successfully!</string>
+    <string name="msg_opening_map">Opening Map...</string>
+    <string name="msg_opening_messages">Opening Messages...</string>
+    <string name="msg_opening_search">Opening Search...</string>
+    <string name="my_location">My Location</string>
+    <string name="delete_confirm_title">Delete Contact</string>
+    <string name="delete_confirm_msg">Are you sure you want to delete this contact?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Password Rules -->
+    <string name="rule_number_check">✔ At least one number</string>
+    <string name="rule_number_error">✖ At least one number</string>
+    <string name="rule_lower_check">✔ At least one lowercase letter</string>
+    <string name="rule_lower_error">✖ At least one lowercase letter</string>
+    <string name="rule_upper_check">✔ At least one uppercase letter</string>
+    <string name="rule_upper_error">✖ At least one uppercase letter</string>
+    <string name="rule_special_check">✔ At least one special character</string>
+    <string name="rule_special_error">✖ At least one special character</string>
+    <string name="rule_length_check">✔ At least 8 characters</string>
+    <string name="rule_length_error">✖ At least 8 characters</string>
+
+    <!-- Menu Items -->
+    <string name="action_add_member">Add Member</string>
+    <string name="action_group_settings">Group Settings</string>
+    <string name="star">Star</string>
+    <string name="unstar">Unstar</string>
+    <string name="pin">Pin</string>
+    <string name="unpin">Unpin</string>
+
+    <!-- Chat -->
+    <string name="hint_type_message_chat">Type a message...</string>
+    <string name="search_chats">Search Chats</string>
+    <string name="hint_search_name">Search name...</string>
+    <string name="msg_all_read">All messages marked as read</string>
+    <string name="msg_starred">Starred messages</string>
+    <string name="create_new_group">Create New Group</string>
+    <string name="hint_group_name">Group Name</string>
+    <string name="btn_create">Create</string>
+    <string name="file_options_coming_soon">File options coming soon</string>
+    <string name="recording_toast">Recording...</string>
+    <string name="sending_prefix">Sending</string>
+    <string name="upload_failed">Upload failed</string>
+    <string name="connecting_chat">Connecting to Chat</string>
+    <string name="type_image">Image</string>
+    <string name="type_audio">Audio Message</string>
+    <string name="initial_timer_value">00:00:00</string>
+    <string name="group_label">GROUP</string>
+    <string name="everyone">Everyone</string>
+    <string name="search_results_zero">0 results</string>
+    <string name="search_count_format">%1$d/%2$d</string>
+
+    <!-- Chat Actions -->
+    <string name="clear_chat_title">Clear Chat</string>
+    <string name="clear_chat_msg">Are you sure you want to clear your messages?</string>
+    <string name="clear">Clear</string>
+    <string name="msg_chat_cleared">Chat cleared</string>
+    <string name="delete_chat_title">Delete Chat</string>
+    <string name="delete_chat_msg">Delete this chat history for you?</string>
+    <string name="delete">Delete</string>
+    <string name="msg_chat_deleted">Chat deleted</string>
+    <string name="exit_group_title">Exit Group</string>
+    <string name="exit_group_msg">Are you sure you want to exit this group?</string>
+    <string name="exit">Exit</string>
+    <string name="msg_exited_group">Exited group</string>
+    <string name="msg_copied">Copied to clipboard</string>
+    <string name="msg_messages_starred">Messages starred</string>
+    <string name="msg_messages_unstarred">Messages unstarred</string>
+    <string name="msg_messages_pinned">Messages pinned</string>
+    <string name="msg_messages_unpinned">Messages unpinned</string>
+    <string name="msg_messages_deleted">Messages deleted</string>
+
+    <!-- Emergency Services -->
+    <string name="service_icon">Service Icon</string>
+    <string name="call_confirmation_title">Call %1$s?</string>
+    <string name="call_confirmation_subtitle">Calling %1$s through your registered number: %2$s</string>
+    <string name="permission_denied_dialer">Permission denied. Opening dialer.</string>
+    <string name="member_count">%1$d members</string>
+
+</resources>
+

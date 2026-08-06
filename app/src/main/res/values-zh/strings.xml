@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Velyx</string>
+    <string name="title_velyx_sos">Velyx</string>
+    <string name="tagline">您的安全，我们的首选</string>
+    <string name="join_network">加入安全网络</string>
+
+    <!-- Auth -->
+    <string name="login">登录</string>
+    <string name="signup">注册</string>
+    <string name="forgot_password">忘记密码？</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_signup">注册</string>
+    <string name="btn_register_now">立即注册</string>
+
+    <!-- Fields -->
+    <string name="hint_full_name">全名</string>
+    <string name="hint_email">电子邮件地址</string>
+    <string name="hint_password">密码</string>
+    <string name="hint_confirm_password">确认密码</string>
+    <string name="hint_phone">电话号码</string>
+    <string name="label_select_role">选择角色</string>
+
+    <!-- Main/Home -->
+    <string name="btn_emergency">紧急情况</string>
+    <string name="btn_save_config">保存配置</string>
+    <string name="status_monitoring">正在监测语音触发...</string>
+    <string name="protection_status">保护状态</string>
+    <string name="emergency_response">紧急响应</string>
+    <string name="btn_trusted_contacts">信任联系人</string>
+    <string name="btn_alert_message">警报消息</string>
+    <string name="sos">SOS</string>
+
+    <!-- Settings Page -->
+    <string name="settings_title">设置</string>
+    <string name="settings_theme_mode">显示模式</string>
+    <string name="theme_light">浅色模式</string>
+    <string name="theme_dark">深色模式</string>
+    <string name="settings_language">应用语言</string>
+    <string name="settings_language_desc">更改语言将更新应用中的所有文本。</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">打开导航栏</string>
+    <string name="navigation_drawer_close">关闭导航栏</string>
+    <string name="nav_home">首页</string>
+    <string name="nav_map">地图</string>
+    <string name="nav_message">消息</string>
+    <string name="nav_search">搜索</string>
+    <string name="nav_profile">个人资料</string>
+
+    <!-- Profile Page -->
+    <string name="profile_settings">个人资料与设置</string>
+    <string name="option_edit_profile">编辑个人资料</string>
+    <string name="option_change_password">修改密码</string>
+    <string name="option_settings">设置</string>
+    <string name="option_feedback">反馈</string>
+    <string name="option_about">关于 Velyx SOS</string>
+    <string name="btn_logout">注销</string>
+    <string name="app_version">版本 1.0.0</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile_title">编辑个人资料</string>
+    <string name="edit_your_profile">编辑您的资料</string>
+    <string name="btn_save_changes">保存更改</string>
+
+    <!-- Change Password -->
+    <string name="change_password_title">修改密码</string>
+    <string name="hint_current_password">当前密码</string>
+    <string name="hint_new_password">新密码</string>
+    <string name="hint_confirm_new_password">确认新密码</string>
+    <string name="btn_update_password">更新密码</string>
+    <string name="btn_forgot_password_verify">忘记密码？验证电子邮件</string>
+
+    <!-- Alert Message -->
+    <string name="emergency_config">紧急配置</string>
+    <string name="custom_alert_message">自定义警报消息</string>
+    <string name="hint_type_message">输入您的紧急消息...</string>
+    <string name="select_contacts_alert">选择默认通知的联系人：</string>
+    <string name="btn_send_alert_now">立即发送警报</string>
+
+    <!-- Trusted Contacts -->
+    <string name="title_trusted_contacts">信任联系人</string>
+    <string name="label_your_trusted_contacts">您的信任联系人：</string>
+    <string name="btn_pick_from_contacts">从手机联系人中选择</string>
+    <string name="hint_contact_name">联系人姓名</string>
+    <string name="hint_phone_number">电话号码</string>
+    <string name="hint_relation">关系（如：姐妹）</string>
+    <string name="btn_save_contact">保存联系人</string>
+    <string name="btn_add_trusted_contact">添加信任联系人</string>
+
+    <!-- Messages & Errors -->
+    <string name="welcome_back">欢迎回来，%1$s</string>
+    <string name="error_invalid_login">电子邮件或密码无效</string>
+    <string name="error_fill_all_fields">请填写所有字段</string>
+    <string name="error_pass_requirements">密码不符合要求</string>
+    <string name="error_pass_match">密码不匹配</string>
+    <string name="error_invalid_phone">请输入有效的电话号码</string>
+    <string name="msg_account_created">账户已创建！请登录。</string>
+    <string name="msg_profile_updated">个人资料已更新！</string>
+    <string name="msg_photo_updated">头像已更新！</string>
+    <string name="msg_contact_added">联系人已添加</string>
+    <string name="msg_contact_removed">联系人已删除</string>
+    <string name="delete_confirm_title">删除联系人</string>
+    <string name="delete_confirm_msg">您确定要删除此联系人吗？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+</resources>
+

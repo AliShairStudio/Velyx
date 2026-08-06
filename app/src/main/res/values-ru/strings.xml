@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Velyx</string>
+    <string name="title_velyx_sos">Velyx</string>
+    <string name="tagline">Ваша безопасность — наш приоритет</string>
+    <string name="join_network">Присоединяйтесь к сети безопасности</string>
+
+    <!-- Auth -->
+    <string name="login">Вход</string>
+    <string name="signup">Регистрация</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="btn_login">ВОЙТИ</string>
+    <string name="btn_signup">ЗАРЕГИСТРИРОВАТЬСЯ</string>
+    <string name="btn_register_now">Зарегистрироваться сейчас</string>
+
+    <!-- Fields -->
+    <string name="hint_full_name">Полное имя</string>
+    <string name="hint_email">Адрес электронной почты</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_confirm_password">Подтвердите пароль</string>
+    <string name="hint_phone">Номер телефона</string>
+    <string name="label_select_role">Выберите роль</string>
+
+    <!-- Main/Home -->
+    <string name="btn_emergency">ЭКСТРЕННАЯ СИТУАЦИЯ</string>
+    <string name="btn_save_config">СОХРАНИТЬ КОНФИГУРАЦИЮ</string>
+    <string name="status_monitoring">Мониторинг голосового триггера...</string>
+    <string name="protection_status">Статус защиты</string>
+    <string name="emergency_response">Экстренное реагирование</string>
+    <string name="btn_trusted_contacts">Доверенные контакты</string>
+    <string name="btn_alert_message">Сообщение об оповещении</string>
+    <string name="sos">SOS</string>
+
+    <!-- Settings Page -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_theme_mode">Режим отображения</string>
+    <string name="theme_light">Светлая тема</string>
+    <string name="theme_dark">Темная тема</string>
+    <string name="settings_language">Язык приложения</string>
+    <string name="settings_language_desc">Изменение языка обновит весь текст в приложении.</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="nav_home">Главная</string>
+    <string name="nav_map">Карта</string>
+    <string name="nav_message">Сообщение</string>
+    <string name="nav_search">Поиск</string>
+    <string name="nav_profile">Профиль</string>
+
+    <!-- Profile Page -->
+    <string name="profile_settings">Профиль и настройки</string>
+    <string name="option_edit_profile">Редактировать профиль</string>
+    <string name="option_change_password">Изменить пароль</string>
+    <string name="option_settings">Настройки</string>
+    <string name="option_feedback">Обратная связь</string>
+    <string name="option_about">О Velyx SOS</string>
+    <string name="btn_logout">ВЫЙТИ</string>
+    <string name="app_version">Версия 1.0.0</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile_title">Редактировать профиль</string>
+    <string name="edit_your_profile">Редактировать ваш профиль</string>
+    <string name="btn_save_changes">СОХРАНИТЬ ИЗМЕНЕНИЯ</string>
+
+    <!-- Change Password -->
+    <string name="change_password_title">Изменить пароль</string>
+    <string name="hint_current_password">Текущий пароль</string>
+    <string name="hint_new_password">Новый пароль</string>
+    <string name="hint_confirm_new_password">Подтвердите новый пароль</string>
+    <string name="btn_update_password">Обновить пароль</string>
+    <string name="btn_forgot_password_verify">Забыли пароль? Подтвердите email</string>
+
+    <!-- Alert Message -->
+    <string name="emergency_config">Экстренная конфигурация</string>
+    <string name="custom_alert_message">Пользовательское сообщение об оповещении</string>
+    <string name="hint_type_message">Введите ваше экстренное сообщение...</string>
+    <string name="select_contacts_alert">Выберите контакты для оповещения по умолчанию:</string>
+    <string name="btn_send_alert_now">ОТПРАВИТЬ ОПОВЕЩЕНИЕ СЕЙЧАС</string>
+
+    <!-- Trusted Contacts -->
+    <string name="title_trusted_contacts">Доверенные контакты</string>
+    <string name="label_your_trusted_contacts">Ваши доверенные контакты:</string>
+    <string name="btn_pick_from_contacts">ВЫБРАТЬ ИЗ КОНТАКТОВ ТЕЛЕФОНА</string>
+    <string name="hint_contact_name">Имя контакта</string>
+    <string name="hint_phone_number">Номер телефона</string>
+    <string name="hint_relation">Отношение (например, сестра)</string>
+    <string name="btn_save_contact">СОХРАНИТЬ КОНТАКТ</string>
+    <string name="btn_add_trusted_contact">Добавить доверенный контакт</string>
+
+    <!-- Messages & Errors -->
+    <string name="welcome_back">С возвращением, %1$s</string>
+    <string name="error_invalid_login">Неверный email или пароль</string>
+    <string name="error_fill_all_fields">Пожалуйста, заполните все поля</string>
+    <string name="error_pass_requirements">Пароль не соответствует требованиям</string>
+    <string name="error_pass_match">Пароли не совпадают</string>
+    <string name="error_invalid_phone">Пожалуйста, введите правильный номер телефона</string>
+    <string name="msg_account_created">Аккаунт создан! Пожалуйста, войдите.</string>
+    <string name="msg_profile_updated">Профиль обновлен!</string>
+    <string name="msg_photo_updated">Фото профиля обновлено!</string>
+    <string name="msg_contact_added">Контакт добавлен</string>
+    <string name="msg_contact_removed">Контакт удален</string>
+    <string name="delete_confirm_title">Удалить контакт</string>
+    <string name="delete_confirm_msg">Вы уверены, что хотите удалить этот контакт?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+</resources>
+

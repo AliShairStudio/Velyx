@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarSafety"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/surface_color"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:navigationIconTint="@color/primary_blue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Safety Check"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingEnd="16dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ImageView
+                android:id="@+id/btnSchedule"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/schedule"
+                app:tint="@color/primary_blue"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="@string/content_desc_schedule_timer" />
+            <ImageView
+                android:id="@+id/btnSafetySettings"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/setting"
+                app:tint="@color/primary_blue"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="Safety Settings" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/layoutPicker"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_buttons"
+        app:layout_constraintTop_toBottomOf="@id/toolbarSafety">
+
+        <!-- Hours -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <NumberPicker
+                android:id="@+id/pickerHours"
+                android:layout_width="80dp"
+                android:layout_height="200dp"
+                android:theme="@style/ThemedNumberPicker" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="h"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="12dp"
+                android:layout_marginTop="4dp"/>
+        </FrameLayout>
+
+        <View android:layout_width="16dp" android:layout_height="1dp" />
+
+        <!-- Minutes -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <NumberPicker
+                android:id="@+id/pickerMinutes"
+                android:layout_width="80dp"
+                android:layout_height="200dp"
+                android:theme="@style/ThemedNumberPicker" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="m"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="12dp"
+                android:layout_marginTop="4dp"/>
+        </FrameLayout>
+
+        <View android:layout_width="16dp" android:layout_height="1dp" />
+
+        <!-- Seconds -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <NumberPicker
+                android:id="@+id/pickerSeconds"
+                android:layout_width="80dp"
+                android:layout_height="200dp"
+                android:theme="@style/ThemedNumberPicker" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="s"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="12dp"
+                android:layout_marginTop="4dp"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- Running Timer View -->
+    <RelativeLayout
+        android:id="@+id/layoutRunning"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_buttons"
+        app:layout_constraintTop_toBottomOf="@id/toolbarSafety">
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/progressTimer"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerInParent="true"
+            app:indicatorSize="260dp"
+            app:trackThickness="10dp"
+            app:indicatorColor="@color/primary_blue"
+            app:trackColor="@color/option_card_bg"
+            app:trackCornerRadius="5dp"
+            android:max="1000"
+            android:progress="1000" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvRunningTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:03:00"
+                android:textColor="@color/text_primary"
+                android:textSize="44sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/schedule"
+                    app:tint="@color/text_secondary"
+                    android:layout_marginEnd="6dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Safety Check"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="128dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutTimerControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPauseResumeTimer"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="24dp"
+            app:icon="@drawable/pause"
+            app:iconSize="28dp"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            android:padding="0dp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            app:shapeAppearanceOverlay="@style/CircleImage"
+            android:backgroundTint="@color/option_card_bg"
+            app:iconTint="@color/text_primary"
+            android:elevation="4dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStopTimer"
+            android:layout_width="280dp"
+            android:layout_height="72dp"
+            android:text="@string/stop_timer"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:icon="@drawable/stop"
+            app:iconGravity="textStart"
+            app:iconSize="28dp"
+            app:iconPadding="12dp"
+            android:backgroundTint="@color/success_green"
+            app:cornerRadius="36dp"
+            android:elevation="8dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStartTimer"
+        android:layout_width="280dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/start_timer"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:icon="@drawable/play"
+        app:iconGravity="textStart"
+        app:iconSize="28dp"
+        app:iconPadding="12dp"
+        android:backgroundTint="@color/primary_blue"
+        app:cornerRadius="36dp"
+        android:elevation="8dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

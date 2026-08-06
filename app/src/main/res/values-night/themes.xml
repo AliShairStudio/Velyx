@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Night mode. -->
+    <style name="Theme.Beacon" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color (Softer for Dark) -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_blue</item>
+        <item name="colorOnPrimary">@color/background_color</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/accent_blue</item>
+        <item name="colorOnSecondary">@color/background_color</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/background_color</item>
+
+        <!-- Surfaces & Backgrounds -->
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="colorSurface">@color/surface_color</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+
+        <!-- Explicitly disable the default Action Bar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Custom semantic mappings -->
+        <item name="dividerHorizontal">@color/divider_color</item>
+
+        <!-- Popup Menu Styles -->
+        <item name="android:popupMenuStyle">@style/GlassyPopupMenu</item>
+        <item name="popupMenuStyle">@style/GlassyPopupMenu</item>
+    </style>
+</resources>
+

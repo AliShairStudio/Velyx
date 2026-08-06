@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Velyx</string>
+    <string name="title_velyx_sos">Velyx</string>
+    <string name="tagline">سلامتك هي أولويتنا</string>
+    <string name="join_network">انضم إلى شبكة الأمان</string>
+
+    <!-- Auth -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="signup">إنشاء حساب</string>
+    <string name="forgot_password">هل نسيت كلمة السر؟</string>
+    <string name="btn_login">تسجيل الدخول</string>
+    <string name="btn_signup">إنشاء حساب</string>
+    <string name="btn_register_now">سجل الآن</string>
+
+    <!-- Fields -->
+    <string name="hint_full_name">الاسم الكامل</string>
+    <string name="hint_email">البريد الإلكتروني</string>
+    <string name="hint_password">كلمة المرور</string>
+    <string name="hint_confirm_password">تأكيد كلمة المرور</string>
+    <string name="hint_phone">رقم الهاتف</string>
+    <string name="label_select_role">اختر دورك</string>
+
+    <!-- Main/Home -->
+    <string name="btn_emergency">حالة طوارئ</string>
+    <string name="btn_save_config">حفظ الإعدادات</string>
+    <string name="status_monitoring">جاري مراقبة مفتاح الصوت...</string>
+    <string name="protection_status">حالة الحماية</string>
+    <string name="emergency_response">الاستجابة للطوارئ</string>
+    <string name="btn_trusted_contacts">جهات الاتصال الموثوقة</string>
+    <string name="btn_alert_message">رسالة التنبيه</string>
+    <string name="sos">SOS</string>
+
+    <!-- Settings Page -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_theme_mode">وضع العرض</string>
+    <string name="theme_light">الوضع الفاتح</string>
+    <string name="theme_dark">الوضع الداكن</string>
+    <string name="settings_language">لغة التطبيق</string>
+    <string name="settings_language_desc">سيؤدي تغيير اللغة إلى تحديث جميع النصوص في التطبيق.</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">فتح درج التنقل</string>
+    <string name="navigation_drawer_close">إغلاق درج التنقل</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_map">الخريطة</string>
+    <string name="nav_message">الرسائل</string>
+    <string name="nav_search">البحث</string>
+    <string name="nav_profile">الملف الشخصي</string>
+
+    <!-- Profile Page -->
+    <string name="profile_settings">الملف الشخصي والإعدادات</string>
+    <string name="option_edit_profile">تعديل الملف الشخصي</string>
+    <string name="option_change_password">تغيير كلمة المرور</string>
+    <string name="option_settings">الإعدادات</string>
+    <string name="option_feedback">الملاحظات</string>
+    <string name="option_about">حول بیکن SOS</string>
+    <string name="option_safety_check">تحقق من الأمان</string>
+    <string name="btn_logout">تسجيل الخروج</string>
+    <string name="app_version">الإصدار 1.0.0</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile_title">تعديل الملف الشخصي</string>
+    <string name="edit_your_profile">تعديل ملفك الشخصي</string>
+    <string name="btn_save_changes">حفظ التغييرات</string>
+
+    <!-- Change Password -->
+    <string name="change_password_title">تغيير كلمة المرور</string>
+    <string name="hint_current_password">كلمة المرور الحالية</string>
+    <string name="hint_new_password">كلمة المرور الجديدة</string>
+    <string name="hint_confirm_new_password">تأكيد كلمة المرور الجديدة</string>
+    <string name="btn_update_password">تحديث كلمة المرور</string>
+    <string name="btn_forgot_password_verify">هل نسيت كلمة السر؟ تحقق من بريدك الإلكتروني</string>
+
+    <!-- Alert Message -->
+    <string name="emergency_config">إعدادات الطوارئ</string>
+    <string name="custom_alert_message">رسالة تنبيه مخصصة</string>
+    <string name="hint_type_message">اكتب رسالة الطوارئ الخاصة بك...</string>
+    <string name="select_contacts_alert">اختر جهات الاتصال الافتراضية للتنبيه:</string>
+    <string name="btn_send_alert_now">أرسل التنبيه الآن</string>
+
+    <!-- Trusted Contacts -->
+    <string name="title_trusted_contacts">جهات الاتصال الموثوقة</string>
+    <string name="label_your_trusted_contacts">جهات الاتصال الموثوقة الخاصة بك:</string>
+    <string name="btn_pick_from_contacts">اختر من جهات اتصال الهاتف</string>
+    <string name="hint_contact_name">اسم جهة الاتصال</string>
+    <string name="hint_phone_number">رقم الهاتف</string>
+    <string name="hint_relation">العلاقة (مثلاً: أخت)</string>
+    <string name="btn_save_contact">حفظ جهة الاتصال</string>
+    <string name="btn_add_trusted_contact">إضافة جهة اتصال موثوقة</string>
+
+    <!-- Messages & Errors -->
+    <string name="welcome_back">مرحباً بعودتك، %1$s</string>
+    <string name="error_invalid_login">البريد الإلكتروني أو كلمة المرور غير صالحة</string>
+    <string name="error_fill_all_fields">يرجى ملء جميع الحقول</string>
+    <string name="error_group_name_required">اسم المجموعة مطلوب</string>
+    <string name="error_pass_requirements">كلمة المرور لا تستوفي المتطلبات</string>
+    <string name="error_pass_match">كلمات المرور غير متطابقة</string>
+    <string name="error_invalid_phone">يرجى إدخال رقم هاتف صالح</string>
+    <string name="msg_account_created">تم إنشاء الحساب! يرجى تسجيل الدخول.</string>
+    <string name="msg_profile_updated">تم تحديث الملف الشخصي!</string>
+    <string name="msg_photo_updated">تم تحديث صورة الملف الشخصي!</string>
+    <string name="msg_contact_added">تم إضافة جهة الاتصال</string>
+    <string name="msg_contact_removed">تم إزالة جهة الاتصال</string>
+    <string name="delete_confirm_title">حذف جهة الاتصال</string>
+    <string name="delete_confirm_msg">هل أنت متأكد أنك تريد حذف جهة الاتصال هذه؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="search_results_zero">0 نتائج</string>
+    <string name="search_count_format">%1$d/%2$d</string>
+
+    <!-- Chat Actions -->
+    <string name="clear_chat_title">مسح الدردشة</string>
+    <string name="clear_chat_msg">هل أنت متأكد أنك تريد مسح رسائلك؟</string>
+    <string name="clear">مسح</string>
+    <string name="msg_chat_cleared">تم مسح الدردشة</string>
+    <string name="delete_chat_title">حذف الدردشة</string>
+    <string name="delete_chat_msg">حذف تاريخ الدردشة هذا لك؟</string>
+    <string name="delete">حذف</string>
+    <string name="msg_chat_deleted">تم حذف الدردشة</string>
+    <string name="exit_group_title">الخروج من المجموعة</string>
+    <string name="exit_group_msg">هل أنت متأكد أنك تريد الخروج من هذه المجموعة؟</string>
+    <string name="exit">خروج</string>
+    <string name="msg_exited_group">تم الخروج من المجموعة</string>
+    <string name="msg_copied">تم النسخ إلى الحافظة</string>
+    <string name="msg_messages_starred">تم تمييز الرسائل بنجمة</string>
+    <string name="msg_messages_pinned">تم تثبيت الرسائل</string>
+    <string name="msg_messages_deleted">تم حذف الرسائل</string>
+    <string name="search_chats">البحث في الدردشات</string>
+    <string name="hint_type_message_chat">اكتب رسالة…</string>
+    <string name="msg_saving_profile">جاري حفظ تغییرات الملف الشخصي…</string>
+    <string name="msg_uploading_photo">جاري رفع صورة الملف الشخصي…</string>
+    <string name="msg_session_expired">انتهت الجلسة. يرجى تسجيل الدخول مرة أخرى.</string>
+    <string name="msg_photo_update_failed">فشل تحديث رابط الملف الشخصي</string>
+    <string name="msg_db_update_failed">فشل تحديث قاعدة البيانات</string>
+    <string name="msg_upload_failed">فشل الرفع: %1$s</string>
+    <string name="msg_no_email_client">لم يتم العثور على عميل بريد إلكتروني</string>
+    <string name="msg_send_feedback_title">إرسال ملاحظات…</string>
+    <string name="msg_invalid_phone_number">رقم الهاتف غير صالح</string>
+    <string name="msg_checking_user">جاري التحقق من المستخدم…</string>
+    <string name="msg_user_not_found">المستخدم غير موجود في Velyx SOS</string>
+    <string name="msg_user_already_added">تم إضافة المستخدم بالفعل</string>
+    <string name="msg_already_in_group">أنت بالفعل في المجموعة</string>
+    <string name="msg_error_checking_user">خطأ في التحقق من المستخدم</string>
+    <string name="msg_conn_timeout">انتهت مهلة الاتصال. يرجى التحقق من الإنترنت الخاص بك.</string>
+    <string name="msg_failed_create_group">فشل في إنشاء المجموعة</string>
+    <string name="msg_group_name_required">اسم المجموعة مطلوب</string>
+    <string name="label_update_details">تحديث تفاصيلك</string>
+    <string name="label_forward_to">إرسال إلى</string>
+    <string name="hint_search_messages">البحث في الرسائل…</string>
+
+    <!-- Safety Check -->
+    <string name="safety_check_title">تحقق من الأمان</string>
+    <string name="safety_check_desc">قم بتعيين مؤقت لأمانك. إذا لم يتم إيقافه، فسيتم إرسال SOS.</string>
+    <string name="set_duration">تعيين المدة (بالدقائق)</string>
+    <string name="start_timer">بدء مؤقت الأمان</string>
+    <string name="stop_timer">أنا بأمان (إيقاف المؤقت)</string>
+    <string name="timer_running">مؤقت الأمان يعمل</string>
+    <string name="emergency_triggered">فشل التحقق من الأمان! تم إرسال SOS.</string>
+    <string name="safety_timer_notification">مؤقت الأمان نشط. اضغط للإيقاف.</string>
+    <string name="safety_alarm_title">إنذار التحقق من الأمان!</string>
+    <string name="safety_timer_finished">انتهى مؤقت الأمان. جاري تشغيل SOS…</string>
+    <string name="msg_timer_started">بدأ مؤقت الأمان لمدة %1$d دقائق</string>
+    <string name="msg_timer_stopped">تم إيقاف مؤقت الأمان</string>
+</resources>
+

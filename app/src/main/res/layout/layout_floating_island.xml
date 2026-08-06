@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootFloatingIsland"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/floating_island_bg">
+
+    <!-- Collapsed View (The Pill) -->
+    <LinearLayout
+        android:id="@+id/layoutCollapsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@mipmap/ic_app_logo"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="App Logo" />
+
+        <TextView
+            android:id="@+id/tvFloatingTimerCollapsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:03:00"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Expanded View -->
+    <LinearLayout
+        android:id="@+id/layoutExpanded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="16dp"
+        android:visibility="gone"
+        android:layout_gravity="center">
+
+        <!-- Timer at the top -->
+        <TextView
+            android:id="@+id/tvFloatingTimerExpanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:03:00"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Buttons row below the timer -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!-- Play/Pause Button -->
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btnPausePlayFloating"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/pause"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="fitCenter"
+                android:padding="8dp"
+                app:tint="#FFFFFF"
+                android:contentDescription="Pause or Play" />
+
+            <View
+                android:layout_width="16dp"
+                android:layout_height="1dp" />
+
+            <!-- Stop Button -->
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btnStopFloating"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/stop"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/success_green"
+                android:scaleType="fitCenter"
+                android:padding="8dp"
+                android:contentDescription="Stop Timer" />
+
+            <View
+                android:layout_width="16dp"
+                android:layout_height="1dp" />
+
+            <!-- Maximize/Open App Button -->
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btnOpenAppFloating"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/maximize"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="fitCenter"
+                android:padding="8dp"
+                app:tint="#FFFFFF"
+                android:contentDescription="Open Safety Check" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

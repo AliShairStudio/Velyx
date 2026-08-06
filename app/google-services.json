@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "37341599868",
+    "firebase_url": "https://beaconsos-a2dba-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "beaconsos-a2dba",
+    "storage_bucket": "beaconsos-a2dba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37341599868:android:5591d9cdc016c3c2f551f9",
+        "android_client_info": {
+          "package_name": "com.alert.beaconsos.v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37341599868-95suvc36vg1pnvdudtudaen9k794snpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alert.beaconsos.v2",
+            "certificate_hash": "5e8f16062e13cdb54e517e6d89e37a4a42065576"
+          }
+        },
+        {
+          "client_id": "37341599868-0qhrpja6ib8k1a972s9rd54f20o1tv9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNBkRjHZnDTmQNieM_72RhV7mHETI8PzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37341599868-0qhrpja6ib8k1a972s9rd54f20o1tv9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

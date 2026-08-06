@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AMOLED Dark Theme Palette -->
+    <color name="primary_blue">#8AB4F8</color>
+    <color name="primary_dark_blue">#1A73E8</color>
+    <color name="accent_blue">#ADCCFF</color>
+
+    <!-- Surfaces (AMOLED Optimized) -->
+    <color name="background_color">#121212</color>
+    <color name="surface_color">#000000</color>
+    <color name="card_bg">#000000</color>
+    <color name="option_card_bg">#000000</color>
+
+    <!-- Text & Icons -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9AA0A6</color>
+    <color name="text_hint">#70757A</color>
+    <color name="icon_color">#FFFFFF</color>
+
+    <!-- Status & Functional -->
+    <color name="error_red">#F28B82</color>
+    <color name="success_green">#81C995</color>
+    <color name="divider_color">#202124</color>
+    <color name="logout_bg">#3C1616</color>
+
+    <!-- Dynamic Input Box Colors -->
+    <color name="input_bg_normal">#000000</color>
+    <color name="input_bg_focused">#121212</color>
+
+    <!-- Chat Message Backgrounds (Pixel-like) -->
+    <color name="chat_sent_bg">#304975</color>
+    <color name="chat_received_bg">#2E2F32</color>
+
+    <!-- Compatibility -->
+    <color name="primary_red">#F28B82</color>
+    <color name="primary_dark">#1A73E8</color>
+    <color name="gray_light">#202124</color>
+    <color name="border_color">#202124</color>
+    <color name="nav_selected_bg">#1A73E8</color>
+    <color name="input_field_bg">#121212</color>
+    <color name="bg_light">#121212</color>
+    <color name="gray_text">#9AA0A6</color>
+    <color name="text_dark">#FFFFFF</color>
+    <color name="soft_blue_bg">#000000</color>
+    <color name="red">#F28B82</color>
+    <color name="green">#81C995</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="tab_active_bg">#3C4043</color>
+    <color name="tab_inactive_text">#9AA0A6</color>
+</resources>
